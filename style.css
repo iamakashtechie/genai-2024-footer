@@ -167,6 +167,10 @@ footer .footer-bottom .social-links a .social-icon {
 }
 
 @media screen and (max-width: 500px) {
+    footer {
+        padding: 20px 20px;
+    }
+
     footer .footer-bottom {
         flex-direction: column;
         gap: 10px;
@@ -190,12 +194,12 @@ footer .footer-bottom .social-links a .social-icon {
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
-        width: 100%;
+        width: 83%;
     }
 
     footer .footer-top .link-section {
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: flex-start;
         width: 100%;
     }

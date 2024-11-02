@@ -67,6 +67,7 @@ footer .footer-top .about-section .text-area p {
     color: #c7c7c7;
     font-size: 0.9rem;
     font-weight: 400;
+    max-width: 28rem;
 }
 
 footer .footer-top .link-section {
@@ -199,14 +200,14 @@ footer .footer-bottom .social-links a .social-icon {
 
     footer .footer-top .link-section {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: flex-start;
         width: 100%;
     }
 
     footer .footer-top .link-section .sub-section {
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
     }
 }
 

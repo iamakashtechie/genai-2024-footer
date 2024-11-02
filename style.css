@@ -26,7 +26,7 @@ body {
 footer {
     background-color: #1f1f1f;
     width: 100%;
-    height: 300px;
+    height: 400px;
     position: absolute;
     /* bottom: 10px; */
     padding: 40px 60px;
@@ -95,7 +95,13 @@ footer .footer-top .link-section .sub-section {
     width: 7.4rem;
     height: 100%;
 }
-
+.sub-section {
+    margin-top: 12.5rem;
+    margin-bottom: 3rem;
+}
+.text-area {
+    margin-bottom: 17rem;
+}
 footer .footer-top .link-section .sub-section h3 {
     color: #ffffff;
     font-size: 1rem;
@@ -189,7 +195,7 @@ footer .footer-bottom .social-links a .social-icon {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 720px) {
     footer {
         height: auto;
     }
@@ -221,13 +227,20 @@ footer .footer-bottom .social-links a .social-icon {
     }
     .sub-section {
         flex: 1;
+        margin-top: 0;
+    margin-bottom: 0rem;
+
+    }
+    
+    .text-area {
+        margin-bottom: unset;
     }
     .spacer {
         flex: 0.6;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 720px) {
     footer .footer-top .about-section {
         display: flex;
         flex-direction: column;

@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Homepage from './components/Homepage'
 import Report from './components/LeaderB';
 import Resources from './components/Resources';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Footer';
 // import ScrollToTop from './components/ScrollTop';
 
 
